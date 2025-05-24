@@ -1,0 +1,479 @@
+<!-- Note :
+   - You can modify the font style and form style to suit your website. 
+   - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code. 
+   - The Mandatory check script can modified as to suit your business needs. 
+   - It is important that you test the modified form before going live.-->
+<div id = 'crmWebToEntityForm' class = 'zcwf_lblLeft crmWebToEntityForm' style = 'background-color: white;color: black;max-width: 600px;'>
+	<meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
+		<META HTTP-EQUIV = 'content-type' CONTENT = 'text/html;charset=UTF-8'>
+			<form id = 'webform6312575000001261010' action = 'https://crm.zoho.com/crm/WebToContactForm' name = WebToContacts6312575000001261010 method = 'POST' onSubmit = 'javascript:document.charset="UTF-8"; return checkMandatory6312575000001261010()' accept-charset = 'UTF-8'>
+				<input type = 'text' style = 'display:none;' name = 'xnQsjsdp' value = 'e483ea1650c9b2be3aab3fb7280faeb1a1ee38def201191d43937d1110dd12e0'>
+				</input>
+				<input type = 'hidden' name = 'zc_gad' id = 'zc_gad' value = ''>
+				</input>
+				<input type = 'text' style = 'display:none;' name = 'xmIwtLD' value = 'e942cf5571dce93a2c470db064276d51904c49608fdf3424703ea91ff23c32a4476343c26bf8245ef09572a7c8f7ebd3'>
+				</input>
+				<input type = 'text' style = 'display:none;' name = 'actionType' value = 'Q29udGFjdHM='>
+				</input>
+				<input type = 'text' style = 'display:none;' name = 'returnURL' value = 'null'>
+				</input>
+				<!-- Do not remove this code. -->
+				<style>
+					html,body{
+						margin: 0px;
+					}
+					.formsubmit.zcwf_button{
+						color: white !important;
+						background: transparent linear-gradient(0deg, #0279FF 0%, #00A3F3 100%);
+					}
+					#crmWebToEntityForm.zcwf_lblLeft{
+						width: 100%;
+						padding: 25px;
+						margin: 0 auto;
+						box-sizing: border-box;
+					}
+					#crmWebToEntityForm.zcwf_lblLeft *{
+						box-sizing: border-box;
+					}
+					#crmWebToEntityForm {text-align: left;
+					}
+					#crmWebToEntityForm *{
+					direction: ltr;
+					}
+					.zcwf_lblLeft .zcwf_title{
+					word-wrap: break-word;
+					padding: 0px 6px 10px;
+					font-weight: bold }
+					.zcwf_lblLeft.cpT_primaryBtn:hover{
+					background: linear-gradient(#02acff 0,#006be4 100%)no-repeat padding-box !important;
+					box-shadow: 0 -2px 0 0  #0159b9 inset !important;
+					border: 0 !important;
+					color:  #fff !important;
+					outline: 0 !important;
+					}
+					.zcwf_lblLeft .zcwf_col_fld input[type = text], input[type = password], .zcwf_lblLeft .zcwf_col_fld textarea{
+					width: 60%;
+					border: 1px solid  #c0c6cc !important;
+					resize: vertical;
+					border-radius: 2px;
+					float: left;
+					}
+					.zcwf_lblLeft .zcwf_col_lab{
+					width: 30%;
+					word-break: break-word;
+					padding: 0px 6px 0px;
+					margin-right: 10px;
+					margin-top: 5px;
+					float: left;
+					min-height: 1px;
+					}
+					.zcwf_lblLeft .zcwf_col_fld{
+					float: left;
+					width: 68%;
+					padding: 0px 6px 0px;
+					position: relative;
+					margin-top: 5px;
+					}
+					.zcwf_lblLeft .zcwf_privacy {padding: 6px;
+					}
+					.zcwf_lblLeft .wfrm_fld_dpNn {display: none;
+					}
+					.dIB {display: inline-block;
+					}
+					.zcwf_lblLeft .zcwf_col_fld_slt{
+					width: 60%;
+					border: 1px solid  #ccc;
+					background:  #fff;
+					border-radius: 4px;
+					font-size: 12px;
+					float: left;
+					resize: vertical;
+					padding: 2px 5px;
+					}
+					.zcwf_lblLeft .zcwf_row:after, .zcwf_lblLeft .zcwf_col_fld:after{
+					content: '';
+					display: table;
+					clear: both;
+					}
+					.zcwf_lblLeft .zcwf_col_help{
+					float: left;
+					margin-left: 7px;
+					font-size: 12px;
+					max-width: 35%;
+					word-break: break-word;
+					}
+					.zcwf_lblLeft .zcwf_help_icon{
+					cursor: pointer;
+					width: 16px;
+					height: 16px;
+					display: inline-block;
+					background:  #fff;
+					border: 1px solid  #c0c6cc;
+					color:  #c1c1c1;
+					text-align: center;
+					font-size: 11px;
+					line-height: 16px;
+					font-weight: bold;
+					border-radius: 50%;
+					}
+					.zcwf_lblLeft .zcwf_row {margin: 15px 0px;
+					}
+					.zcwf_lblLeft .formsubmit{
+					margin-right: 5px;
+					cursor: pointer;
+					color:  #313949;
+					font-size: 12px;
+					}
+					.zcwf_lblLeft .zcwf_privacy_txt{
+					width: 90%;
+					color: rgb(0, 0, 0);
+					font-size: 12px;
+					font-family: Arial;
+					display: inline-block;
+					vertical-align: top;
+					color:  #313949;
+					padding-top: 2px;
+					margin-left: 6px;
+					}
+					.zcwf_lblLeft .zcwf_button{
+					font-size: 12px;
+					color:  #313949;
+					border: 1px solid  #c0c6cc;
+					padding: 3px 9px;
+					border-radius: 4px;
+					cursor: pointer;
+					max-width: 120px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					}
+					.zcwf_lblLeft .zcwf_tooltip_over{
+					position: relative;
+					}
+					.zcwf_lblLeft .zcwf_tooltip_ctn{
+					position: absolute;
+					background:  #dedede;
+					padding: 3px 6px;
+					top: 3px;
+					border-radius: 4px;
+					word-break: break-word;
+					min-width: 100px;
+					max-width: 150px;
+					color:  #313949;
+					z-index: 100;
+					}
+					.zcwf_lblLeft .zcwf_ckbox{
+					float: left;
+					}
+					.zcwf_lblLeft .zcwf_file{
+					width: 55%;
+					box-sizing: border-box;
+					float: left;
+					}
+					.cBoth:after{
+					content: '';
+					display: block;
+					clear: both;
+					}
+					@media all and  (max-width: 600px){
+					.zcwf_lblLeft .zcwf_col_lab, .zcwf_lblLeft .zcwf_col_fld{
+					width: auto;
+					float: none !important;
+					}
+					.zcwf_lblLeft .zcwf_col_help {width: 40%;
+					}
+					}
+				</style>
+				<div class = 'zcwf_title' style = 'max-width: 600px;color: black; font-family:Arial;'>
+					CREDENCE PORTRAITS
+				</div>
+				<div class = 'zcwf_row'>
+					<div class = 'zcwf_col_lab' style = 'font-size:12px; font-family: Arial;'>
+						<label for = 'Account_Name'>
+							Photo Number
+							<span style = 'color:red;'>
+								*
+							</span>
+						</label>
+					</div>
+					<div class = 'zcwf_col_fld'>
+						<input type = 'text' id = 'Account_Name' aria-required = 'true' aria-label = 'Account Name' name = 'Account Name' aria-valuemax = '100' maxlength = '100'>
+						</input>
+						<div class = 'zcwf_col_help'>
+						</div>
+					</div>
+				</div>
+				<div class = 'zcwf_row'>
+					<div class = 'zcwf_col_lab' style = 'font-size:12px; font-family: Arial;'>
+						<label for = 'First_Name'>
+							Candidate Name
+							<span style = 'color:red;'>
+								*
+							</span>
+						</label>
+					</div>
+					<div class = 'zcwf_col_fld'>
+						<input type = 'text' id = 'First_Name' aria-required = 'true' aria-label = 'First Name' name = 'First Name' aria-valuemax = '40' maxlength = '40'>
+						</input>
+						<div class = 'zcwf_col_help'>
+						</div>
+					</div>
+				</div>
+				<div class = 'zcwf_row'>
+					<div class = 'zcwf_col_lab' style = 'font-size:12px; font-family: Arial;'>
+						<label for = 'Last_Name'>
+							Parent Name, if minor
+							<span style = 'color:red;'>
+								*
+							</span>
+						</label>
+					</div>
+					<div class = 'zcwf_col_fld'>
+						<input type = 'text' id = 'Last_Name' aria-required = 'true' aria-label = 'Last Name' name = 'Last Name' aria-valuemax = '80' maxlength = '80'>
+						</input>
+						<div class = 'zcwf_col_help'>
+						</div>
+					</div>
+				</div>
+				<div class = 'zcwf_row'>
+					<div class = 'zcwf_col_lab' style = 'font-size:12px; font-family: Arial;'>
+						<label for = 'Email'>
+							Email
+							<span style = 'color:red;'>
+								*
+							</span>
+						</label>
+					</div>
+					<div class = 'zcwf_col_fld'>
+						<input type = 'text' ftype = 'email' autocomplete = 'false' id = 'Email' aria-required = 'true' aria-label = 'Email' name = 'Email' aria-valuemax = '100' crmlabel = '' maxlength = '100'>
+						</input>
+						<div class = 'zcwf_col_help'>
+						</div>
+					</div>
+				</div>
+				<div class = 'zcwf_row'>
+					<div class = 'zcwf_col_lab' style = 'font-size:12px; font-family: Arial;'>
+						<label for = 'Mobile'>
+							Mobile
+						</label>
+					</div>
+					<div class = 'zcwf_col_fld'>
+						<input type = 'text' id = 'Mobile' aria-required = 'false' aria-label = 'Mobile' name = 'Mobile' aria-valuemax = '30' maxlength = '30'>
+						</input>
+						<div class = 'zcwf_col_help'>
+						</div>
+					</div>
+				</div>
+				<div class = 'zcwf_row'>
+					<div class = 'zcwf_privacy'>
+						<div class = 'dIB vaT' align = 'left'>
+							<div class = 'displayPurpose crm-small-font-size'>
+								<label class = 'newCustomchkbox-md dIB w100_per'>
+									<input autocomplete = 'off' id = 'privacyTool6312575000001261010' type = 'checkbox' aria-checked = 'false' name = '' aria-errormessage = 'privacyErr6312575000001261010' aria-label = 'privacyTool' onclick = 'disableErr6312575000001261010()'>
+									</label>
+								</div>
+							</div>
+							<div class = 'dIB zcwf_privacy_txt' style = 'font-size: 12px;font-family:Arial;color: black;'>
+								<div style = 'font-family:Verdana, arial, Helvetica, sans-serif'>
+									<h3 style = 'font-weight:500; font-size:18.288px; line-height:1.5; margin:18.288px 0px 13.716px; color:rgb(64, 64, 64); font-family:DeepSeek-CJK-patch, Inter, system-ui, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; background-color:rgb(255, 255, 255)'>
+										Privacy Policy &amp; Photo Release Agreement
+									</h3>
+									<p class = 'ds-markdown-paragraph' style = 'margin:13.716px 0px; font-size:16.002px; line-height:28.575px; color:rgb(64, 64, 64); font-family:DeepSeek-CJK-patch, Inter, system-ui, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; background-color:rgb(255, 255, 255)'>
+										By submitting this form, I (&quot;Candidate&quot; or &quot;Parent/Guardian if minor&quot;) grant&nbsp;
+										<strong>
+											Credence Portraits
+										</strong>&nbsp;the irrevocable right to use my likeness (photos/videos) taken at&nbsp;
+										<strong>
+											St. Bernard Community Church on May 24, 2025
+										</strong>
+										, for promotional purposes, including but not limited to:
+									</p>
+									<ul style = 'padding-left:20px;margin-top: 0;' style = 'margin:13.716px 0px; padding-left:27.432px; color:rgb(64, 64, 64); font-family:DeepSeek-CJK-patch, Inter, system-ui, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size:16.002px; background-color:rgb(255, 255, 255)'>
+										<li>
+											<p class = 'ds-markdown-paragraph' style = 'margin-top:0px; margin-right:0px; margin-left:0px; line-height:28.575px; margin-bottom:0px !important'>
+												Websites - Social media - Print/digital marketing materials - Advertising campaigns
+											</p>
+										</li>
+									</ul>
+									<p class = 'ds-markdown-paragraph' style = 'margin:13.716px 0px; font-size:16.002px; line-height:28.575px; color:rgb(64, 64, 64); font-family:DeepSeek-CJK-patch, Inter, system-ui, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; background-color:rgb(255, 255, 255)'>
+										<strong>
+											Data Privacy Commitment:
+										</strong>
+										<br/>
+										Credence Portraits respects your privacy. We only collect and use your personal data to:
+									</p>
+									<ul style = 'padding-left:20px;margin-top: 0;' style = 'margin:13.716px 0px; padding-left:27.432px; color:rgb(64, 64, 64); font-family:DeepSeek-CJK-patch, Inter, system-ui, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size:16.002px; background-color:rgb(255, 255, 255)'>
+										<li>
+											<p class = 'ds-markdown-paragraph' style = 'margin-top:0px; margin-right:0px; margin-left:0px; line-height:28.575px; margin-bottom:0px !important'>
+												Fulfill photography services - Communicate about your session - Deliver ordered products
+												<br/>
+												<br/>
+												We&nbsp;
+												<strong>
+													never
+												</strong>&nbsp;sell or share your data with unauthorized third parties.
+											</p>
+										</li>
+									</ul>
+									<p class = 'ds-markdown-paragraph' style = 'margin:13.716px 0px; font-size:16.002px; line-height:28.575px; color:rgb(64, 64, 64); font-family:DeepSeek-CJK-patch, Inter, system-ui, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; background-color:rgb(255, 255, 255)'>
+										<strong>
+											Parental Consent (if applicable):
+										</strong>
+										<br/>
+										For minors under 18, this agreement must be confirmed by a parent/legal guardian via checkbox or signature in the web form.
+									</p>
+									<p class = 'ds-markdown-paragraph' style = 'margin:13.716px 0px; font-size:16.002px; line-height:28.575px; color:rgb(64, 64, 64); font-family:DeepSeek-CJK-patch, Inter, system-ui, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; background-color:rgb(255, 255, 255)'>
+										<strong>
+											Opt-Out:
+										</strong>
+										<br/>
+										To revoke this permission or request image removal, email info@catholicfest.org with the subject line &quot;Photo Removal Request.&quot;
+									</p>
+								</div>
+							</div>
+							<div id = 'privacyErr6312575000001261010' aria-live = 'polite' style = 'font-size:12px;color:red;padding-left: 5px;visibility:hidden;'>
+								Please accept this
+							</div>
+						</div>
+					</div>
+					<div class = 'zcwf_row'>
+						<div class = 'zcwf_col_lab' style = 'font-size:12px; font-family: Arial;'>
+							<label for = 'Email_Opt_Out'>
+								Email Opt Out
+							</label>
+						</div>
+						<div class = 'zcwf_col_fld'>
+							<input type = 'checkbox' aria-checked = 'false' class = 'zcwf_ckbox' id = 'Email_Opt_Out' aria-required = 'false' aria-label = 'Email Opt Out' name = 'Email Opt Out' aria-valuemax = '50' maxlength = '50' onclick = 'addAriaChecked6312575000001261010()'>
+							</input>
+							<div class = 'zcwf_col_help'>
+							</div>
+						</div>
+					</div>
+					<div class = 'zcwf_row'>
+						<div class = 'zcwf_col_lab'>
+						</div>
+						<div class = 'zcwf_col_fld'>
+							<input type = 'submit' id = 'formsubmit' role = 'button' class = 'formsubmit zcwf_button' value = 'Submit' aria-label = 'Submit' title = 'Submit'>
+								<input type = 'reset' class = 'zcwf_button' role = 'button' name = 'reset' value = 'Reset' aria-label = 'Reset' title = 'Reset'>
+								</div>
+							</div>
+							<script>
+								function addAriaChecked6312575000001261010 (){
+									var checkboxElem = event.target;
+									if ( checkboxElem != undefined && checkboxElem.checked ){
+										checkboxElem.ariaChecked = 'true';
+									}
+									else if ( checkboxElem != undefined && !checkboxElem.checked ){
+										checkboxElem.ariaChecked = 'false';
+									}
+								}
+								function privacyAlert6312575000001261010 (){
+									var privacyTool = document.getElementById ( 'privacyTool6312575000001261010' );
+									var privacyErr = document.getElementById ( 'privacyErr6312575000001261010' );
+									if ( privacyTool != undefined && !privacyTool.checked ){
+										privacyErr.style.visibility = 'visible';
+										privacyTool.ariaInvalid = 'true';
+										privacyTool.focus ();
+										return false;
+									}
+									return true;
+								}
+								function disableErr6312575000001261010 (){
+									var privacyTool = document.getElementById ( 'privacyTool6312575000001261010' );
+									var privacyErr = document.getElementById ( 'privacyErr6312575000001261010' );
+									if ( privacyTool != undefined && privacyTool.checked && privacyErr != undefined ){
+										privacyErr.style.visibility = 'hidden';
+										privacyTool.ariaInvalid = 'false';
+									}
+								}
+								function validateEmail6312575000001261010 (){
+									var form = document.forms[ 'WebToContacts6312575000001261010' ];
+									var emailFld = form.querySelectorAll ( '[ftype=email]' );
+									var i;
+									for ( i = 0; i < emailFld.length; i++ ){
+										var emailVal = emailFld[ i ].value;
+										if ((emailVal.replace( /^\s+|\s+$/g,'' )).length != 0 ){
+											var atpos = emailVal.indexOf ( '@' );
+											var dotpos = emailVal.lastIndexOf ( '.' );
+											if ( atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length ){
+												alert ( 'Please enter a valid email address. ' );
+												emailFld[ i ].focus ();
+												return false;
+											}
+										}
+									}
+									return true;
+								}
+								function checkMandatory6312575000001261010 (){
+									var mndFileds = new Array ( 'First Name', 'Last Name', 'Account Name', 'Email' );
+									var fldLangVal = new Array ( 'Candidate\x20Name', 'Parent\x20Name,\x20if\x20minor', 'Photo\x20Number', 'Email' );
+									for ( i = 0; i < mndFileds.length; i++ ){
+										var fieldObj = document.forms[ 'WebToContacts6312575000001261010' ][ mndFileds[ i ]];
+										if ( fieldObj ){
+											if (((fieldObj.value ).replace( /^\s+|\s+$/g,'' )).length == 0 ){
+												if ( fieldObj.type == 'file' ){
+													alert ( 'Please select a file to upload.' );
+													fieldObj.focus ();
+													return false;
+												}
+												alert ( fldLangVal[ i ] + ' cannot be empty.' );
+												fieldObj.focus ();
+												return false;
+											}
+											else if ( fieldObj.nodeName == 'SELECT' ){
+												if ( fieldObj.options[fieldObj.selectedIndex].value == '-None-' ){
+													alert ( fldLangVal[ i ] + ' cannot be none.' );
+													fieldObj.focus ();
+													return false;
+												}
+											}
+											else if ( fieldObj.type == 'checkbox' ){
+												if ( fieldObj.checked == false ){
+													alert ( 'Please accept  ' + fldLangVal[ i ]);
+													fieldObj.focus ();
+													return false;
+												}
+											}
+											try {
+												if ( fieldObj.name == 'Last Name' ){
+													name = fieldObj.value;
+												}
+											}
+											catch ( e ){}
+										}
+									}
+									if ( !validateEmail6312575000001261010()){
+										return false;
+									}
+									if ( !privacyAlert6312575000001261010()){
+										return false;
+									}
+									var urlparams = new URLSearchParams ( window.location.search );
+									if ( urlparams.has( 'service' ) && ( urlparams.get( 'service' ) === 'smarturl' )){
+										var webform = document.getElementById ( 'webform6312575000001261010' );
+										var service = urlparams.get ( 'service' );
+										var smarturlfield = document.createElement ( 'input' );
+										smarturlfield.setAttribute ( 'type', 'hidden' );
+										smarturlfield.setAttribute ( 'value', service );
+										smarturlfield.setAttribute ( 'name', 'service' );
+										webform.appendChild ( smarturlfield );
+									}
+									document.querySelector ( '.crmWebToEntityForm .formsubmit' ).setAttribute ( 'disabled', true );
+								}
+								function tooltipShow6312575000001261010 ( el ){
+									var tooltip = el.nextElementSibling;
+									var tooltipDisplay = tooltip.style.display;
+									if ( tooltipDisplay == 'none' ){
+										var allTooltip = document.getElementsByClassName ( 'zcwf_tooltip_over' );
+										for ( i = 0; i < allTooltip.length; i++ ){
+											allTooltip[ i ].style.display = 'none';
+										}
+										tooltip.style.display = 'block';
+									}
+									else {
+										tooltip.style.display = 'none';
+									}
+								}
+							</script>
+						</form>
+					</div>
